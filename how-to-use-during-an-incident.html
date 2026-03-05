@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>How to Use This During an Incident — AWS Log Search Recipes</title>
+  <link rel="stylesheet" href="./aws-log-search-recipes.css">
+</head>
+<body>
+  <div class="page">
+    <div class="toprule"></div>
+
+    <h1>How to Use This During an Incident</h1>
+    <p class="subtle">Page description (optional)</p>
+
+    <hr/>
+
+    <h2>How to Use This During an Incident</h2>
+    <p>This handbook is designed to be used while something is breaking, not read end‑to‑end in calm conditions.</p>
+
+    <p>You do not need to follow it linearly.<br/>
+      You use it situationally, based on what kind of problem you’re facing.</p>
+
+    <hr/>
+
+    <h2>First: Stabilise Before You Optimise</h2>
+    <p>When an incident starts, the goal is not deep understanding.<br/>
+      The goal is reducing uncertainty quickly.</p>
+
+    <p style="margin-top:10px;">Start by answering three questions:</p>
+    <ul>
+      <li>Is this affecting many users or a few?</li>
+      <li>Is the failure consistent or intermittent?</li>
+      <li>Is it getting worse, better, or stable?</li>
+    </ul>
+    <p style="margin-top:10px;">You don’t need perfect answers — just direction.</p>
+
+    <hr/>
+
+    <h2>When the Problem Is Concrete</h2>
+    <p>Use the <strong>Recipes</strong> first.</p>
+
+    <p style="margin-top:10px;">Examples:</p>
+    <ul>
+      <li>Clear errors in logs</li>
+      <li>Authentication failures</li>
+      <li>Timeouts</li>
+      <li>Throttling</li>
+      <li>Retries</li>
+      <li>Known services misbehaving</li>
+    </ul>
+
+    <p style="margin-top:10px;">In those cases:</p>
+    <ul>
+      <li>Pick a recipe that matches the symptom</li>
+      <li>Run it as‑is</li>
+      <li>Narrow the time window aggressively</li>
+      <li>Ignore anything that doesn’t reduce uncertainty</li>
+    </ul>
+
+    <p style="margin-top:10px;">Recipes are for execution.</p>
+
+    <hr/>
+
+    <h2>When the Problem Is Ambiguous</h2>
+    <p>Switch to <strong>Advanced Patterns</strong> when:</p>
+    <ul>
+      <li>Logs contradict each other</li>
+      <li>Errors appear unrelated</li>
+      <li>Multiple theories exist</li>
+      <li>The “obvious” explanation keeps shifting</li>
+      <li>Searching just amplifies confusion</li>
+    </ul>
+
+    <p style="margin-top:10px;">Advanced Patterns help you decide:</p>
+    <ul>
+      <li>Where to look next</li>
+      <li>What to stop looking at</li>
+      <li>Whether you’re chasing symptoms</li>
+    </ul>
+
+    <p style="margin-top:10px;">Patterns are for orientation.</p>
+
+    <hr/>
+
+    <h2>How to Move Between Recipes and Patterns</h2>
+    <p>Most incidents require both.</p>
+    <p style="margin-top:10px;">A common flow looks like:</p>
+
+    <ol style="margin:8px 0 0 18px; padding:0;">
+      <li style="margin:6px 0;">Use a Recipe to collect initial signal</li>
+      <li style="margin:6px 0;">Apply an Advanced Pattern to interpret what you’re seeing</li>
+      <li style="margin:6px 0;">Run a second, narrower Recipe</li>
+      <li style="margin:6px 0;">Reassess impact and direction</li>
+    </ol>
+
+    <p style="margin-top:10px;">This loop repeats until:</p>
+    <ul>
+      <li>The system stabilises, or</li>
+      <li>Risk is reduced enough to pause</li>
+    </ul>
+
+    <hr/>
+
+    <h2>What to Do Under Time Pressure</h2>
+    <p>When time is limited:</p>
+    <ul>
+      <li>Reduce the search space early</li>
+      <li>Prefer aggregation over raw logs</li>
+      <li>Avoid perfect explanations</li>
+      <li>Focus on what changes decisions</li>
+    </ul>
+    <p style="margin-top:10px;">If a search doesn’t change what you’d do next, stop running it.</p>
+
+    <hr/>
+
+    <h2>What “Done” Looks Like</h2>
+    <p>An incident does not need full understanding to be considered “handled”.</p>
+
+    <p style="margin-top:10px;">You are done when:</p>
+    <ul>
+      <li>Impact is contained or mitigated</li>
+      <li>The system is stable</li>
+      <li>You can explain roughly what happened and why</li>
+    </ul>
+
+    <p style="margin-top:10px;">Deep root cause analysis can — and often should — wait.</p>
+
+    <hr/>
+
+    <h2>After the Incident</h2>
+    <p>Once pressure drops:</p>
+    <ul>
+      <li>Revisit near‑miss signals</li>
+      <li>Reconstruct timelines</li>
+      <li>Capture what was confusing</li>
+      <li>Note which searches helped and which didn’t</li>
+    </ul>
+
+    <p style="margin-top:10px;">This is where the handbook grows.</p>
+
+    <hr/>
+
+    <h2>Final Note</h2>
+    <p>This handbook is not a replacement for judgement.<br/>
+      It exists to support it under pressure.</p>
+
+    <p style="margin-top:10px;">If you’re unsure what to do next, that’s normal — and usually a sign to pause, simplify, and narrow.</p>
+
+    <hr/>
+
+    <div class="nav">
+      <a class="card" href="./advanced-pattern-10.html">
+        <div class="kicker">Previous</div>
+        <div class="cardtitle">Advanced Pattern 10 — Know When to Stop Searching</div>
+      </a>
+      <a class="card" href="./glossary.html">
+        <div class="kicker">Next</div>
+        <div class="cardtitle">Glossary</div>
+      </a>
+    </div>
+
+  </div>
+</body>
+</html>

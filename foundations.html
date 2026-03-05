@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Foundations — AWS Log Search Recipes</title>
+  <style>
+    :root{
+      --text:#111827;
+      --muted:#6b7280;
+      --line:#e5e7eb;
+      --bg:#ffffff;
+      --soft:#f9fafb;
+      --shadow:0 1px 2px rgba(0,0,0,.06);
+      --mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      --sans: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+    }
+    *{ box-sizing:border-box; }
+    body{
+      margin:0;
+      background:var(--bg);
+      color:var(--text);
+      font-family:var(--sans);
+      line-height:1.55;
+    }
+    .page{
+      max-width:820px;
+      margin:0 auto;
+      padding:28px 18px 42px;
+    }
+    .toprule{
+      border-top:1px solid var(--line);
+      margin-bottom:18px;
+    }
+    h1{
+      font-size:28px;
+      line-height:1.2;
+      margin:10px 0 6px;
+      letter-spacing:-.02em;
+    }
+    .subtle{
+      font-size:12px;
+      color:var(--muted);
+      margin:0 0 14px;
+    }
+    hr{
+      border:none;
+      border-top:1px solid var(--line);
+      margin:18px 0;
+    }
+    h2{
+      font-size:16px;
+      margin:22px 0 8px;
+    }
+    p{ margin:0 0 10px; }
+    ul{
+      margin:8px 0 0 18px;
+      padding:0;
+    }
+    li{ margin:6px 0; }
+    .nav{
+      display:flex;
+      gap:12px;
+      justify-content:space-between;
+      flex-wrap:wrap;
+      margin-top:18px;
+    }
+    .card{
+      flex:1;
+      min-width:260px;
+      border:1px solid var(--line);
+      border-radius:8px;
+      padding:12px;
+      text-decoration:none;
+      color:var(--text);
+      background:#fff;
+    }
+    .card:hover{ box-shadow: var(--shadow); }
+    .kicker{
+      font-size:12px;
+      color:var(--muted);
+      margin-bottom:6px;
+    }
+    .cardtitle{
+      font-weight:600;
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <div class="toprule"></div>
+
+    <h1>Foundations</h1>
+    <p class="subtle">Page description (optional)</p>
+
+    <hr/>
+
+    <h2>Foundations</h2>
+    <p>Before jumping into individual recipes, it’s worth aligning on how experienced engineers approach log searching.</p>
+
+    <p style="margin-top:10px;">
+      Logs are not answers.<br/>
+      They are clues.
+    </p>
+
+    <p style="margin-top:12px;">Effective log analysis is less about syntax and more about:</p>
+    <ul>
+      <li>Asking the right question</li>
+      <li>Narrowing uncertainty</li>
+      <li>Preserving context</li>
+      <li>Understanding system behaviour over time</li>
+    </ul>
+
+    <p style="margin-top:10px;">This section introduces the mental models and patterns that make the recipes effective.</p>
+
+    <hr/>
+
+    <h2>How to use this section</h2>
+    <p>You don’t need to memorise these ideas.</p>
+
+    <p style="margin-top:10px;">Read this section once, then return to it when:</p>
+    <ul>
+      <li>Searches feel unproductive</li>
+      <li>Logs feel noisy</li>
+      <li>Everything looks broken at once</li>
+    </ul>
+
+    <p style="margin-top:10px;">The recipes assume this way of thinking.</p>
+
+    <hr/>
+
+    <div class="nav">
+      <a class="card" href="./introduction.html">
+        <div class="kicker">Previous</div>
+        <div class="cardtitle">Introduction</div>
+      </a>
+      <a class="card" href="./recipes.html">
+        <div class="kicker">Next</div>
+        <div class="cardtitle">Recipes</div>
+      </a>
+    </div>
+  </div>
+</body>
+</html>

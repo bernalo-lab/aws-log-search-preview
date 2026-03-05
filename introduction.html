@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Introduction — AWS Log Search Recipes</title>
+  <style>
+    :root{
+      --text:#111827;
+      --muted:#6b7280;
+      --line:#e5e7eb;
+      --bg:#ffffff;
+      --soft:#f9fafb;
+      --shadow:0 1px 2px rgba(0,0,0,.06);
+      --mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      --sans: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+    }
+    *{ box-sizing:border-box; }
+    body{
+      margin:0;
+      background:var(--bg);
+      color:var(--text);
+      font-family:var(--sans);
+      line-height:1.55;
+    }
+    .page{
+      max-width:820px;
+      margin:0 auto;
+      padding:28px 18px 42px;
+    }
+    .toprule{
+      border-top:1px solid var(--line);
+      margin-bottom:18px;
+    }
+    h1{
+      font-size:28px;
+      line-height:1.2;
+      margin:10px 0 6px;
+      letter-spacing:-.02em;
+    }
+    .subtitle{
+      font-size:12px;
+      color:var(--muted);
+      margin:0 0 18px;
+    }
+    hr{
+      border:none;
+      border-top:1px solid var(--line);
+      margin:18px 0;
+    }
+    h2{
+      font-size:16px;
+      margin:22px 0 8px;
+    }
+    p{ margin:0 0 10px; }
+    .strong{ font-weight:700; }
+    .muted{ color:var(--muted); }
+    ul{
+      margin:8px 0 0 18px;
+      padding:0;
+    }
+    li{ margin:6px 0; }
+    .stack-lines p{ margin:0; }
+    .callout{
+      margin-top:12px;
+      border:1px solid var(--line);
+      background:var(--soft);
+      border-radius:8px;
+      padding:12px 12px;
+      font-size:13px;
+      box-shadow: var(--shadow);
+      font-family: var(--mono);
+    }
+    .xlist li{
+      list-style:none;
+      margin-left:-18px;
+      display:flex;
+      gap:10px;
+      align-items:flex-start;
+    }
+    .x{
+      width:18px;
+      display:inline-block;
+      color:#b91c1c;
+      font-weight:700;
+      line-height:1.2;
+      margin-top:1px;
+    }
+    .nav{
+      display:flex;
+      justify-content:flex-end;
+      margin-top:18px;
+    }
+    .card{
+      min-width:280px;
+      border:1px solid var(--line);
+      border-radius:8px;
+      padding:12px;
+      text-decoration:none;
+      color:var(--text);
+      background:#fff;
+    }
+    .card:hover{ box-shadow: var(--shadow); }
+    .kicker{
+      font-size:12px;
+      color:var(--muted);
+      margin-bottom:6px;
+    }
+    .cardtitle{
+      font-weight:600;
+    }
+    code{
+      font-family:var(--mono);
+      font-size:0.95em;
+      background:var(--soft);
+      border:1px solid var(--line);
+      padding:1px 5px;
+      border-radius:6px;
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <div class="toprule"></div>
+
+    <h1>Introduction</h1>
+    <p class="subtitle">A practical field guide to searching AWS CloudWatch logs during real production incidents.</p>
+
+    <hr/>
+
+    <h2>AWS Log Search Recipes</h2>
+    <p class="strong">Battle-tested CloudWatch Logs Insights queries for real incidents</p>
+
+    <p>When systems fail, dashboards lie and alerts lie. Logs are the last — if you know how to use them.</p>
+    <p>This handbook is a curated set of proven log search recipes used to debug production systems under pressure.</p>
+
+    <div class="stack-lines muted" style="margin-top:10px;">
+      <p>No theory.</p>
+      <p>No vendor fluff.</p>
+      <p class="strong" style="color:var(--text);">Just patterns that work.</p>
+    </div>
+
+    <hr/>
+
+    <h2>Who This Is For</h2>
+    <ul>
+      <li>Cloud Engineers &amp; Platform Engineers</li>
+      <li>DevOps &amp; SREs</li>
+      <li>On-call engineers</li>
+      <li>Security &amp; reliability teams</li>
+      <li>Engineers inheriting systems they didn’t build</li>
+    </ul>
+    <p style="margin-top:10px;">
+      If you’ve ever stared at CloudWatch thinking <em>“I know the answer is in here somewhere”</em> — this is for you.
+    </p>
+
+    <hr/>
+
+    <h2>What You’ll Learn</h2>
+    <ul>
+      <li>How to find the first real error, not the loudest one</li>
+      <li>How to trace requests without distributed tracing</li>
+      <li>How to detect slow paths, retries, and partial failures</li>
+      <li>How to reconstruct incidents using logs alone</li>
+      <li>How experienced engineers actually search logs</li>
+    </ul>
+    <p style="margin-top:10px;">These are the searches you reach for at 2am, not the ones from documentation.</p>
+
+    <hr/>
+
+    <h2>What’s Inside (v1)</h2>
+    <ul>
+      <li>40 production-ready log search recipes</li>
+      <li>Copy-paste CloudWatch Logs Insights queries</li>
+      <li>Clear explanation of why each query works</li>
+      <li>Variations for different system shapes</li>
+      <li>Operational context and failure modes</li>
+    </ul>
+    <p style="margin-top:10px;">Each recipe is designed to stand alone — open anywhere, use immediately.</p>
+
+    <hr/>
+
+    <h2>What This Is Not</h2>
+    <ul class="xlist">
+      <li><span class="x">×</span><span>AWS documentation</span></li>
+      <li><span class="x">×</span><span>Certification prep</span></li>
+      <li><span class="x">×</span><span>Beginner tutorials</span></li>
+      <li><span class="x">×</span><span>APM replacement</span></li>
+    </ul>
+    <p style="margin-top:10px;">This is a field guide, not a textbook.</p>
+
+    <div class="callout">This handbook grows over time as new failure patterns emerge.</div>
+
+    <div class="nav">
+      <a class="card" href="./foundations.html">
+        <div class="kicker">Next</div>
+        <div class="cardtitle">Foundations</div>
+      </a>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Advanced Pattern 01 — Work Backwards from the Blast Radius</title>
+  <link rel="stylesheet" href="./aws-log-search-recipes.css">
+  <style>
+    /* Small extras for this page */
+    .meta2{
+      font-size:13px;
+      margin:0 0 18px;
+      color:var(--text);
+    }
+    .meta2 b{ font-weight:700; }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <div class="toprule"></div>
+
+    <h1>Advanced Pattern 01 — Work Backwards from the Blast Radius</h1>
+    <p class="subtle">Page description (optional)</p>
+
+    <p class="lead">Work Backwards from the Blast Radius</p>
+    <p class="meta2"><b>When to use:</b><br/>
+      When logs are overwhelming and everything appears broken.
+    </p>
+
+    <hr/>
+
+    <h2>The Pattern</h2>
+    <p>Instead of starting where errors are loudest, start where <strong>impact is smallest</strong>.</p>
+
+    <p style="margin-top:10px;">Ask:</p>
+    <ul>
+      <li>Which users are affected?</li>
+      <li>Which operations are failing?</li>
+      <li>Which paths are still working?</li>
+    </ul>
+
+    <p style="margin-top:10px;">Then move backwards toward shared components.</p>
+
+    <hr/>
+
+    <h2>Why This Works</h2>
+    <p>Failures propagate outward.<br/>
+    Symptoms spread faster than origins.</p>
+
+    <p>By starting at the edge of the blast radius, you avoid chasing secondary failures.</p>
+
+    <hr/>
+
+    <h2>Common Mistake</h2>
+    <p>Starting with the first error you see in the logs rather than the first meaningful failure.</p>
+
+    <hr/>
+
+    <h2>How This Connects to Recipes</h2>
+    <ul>
+      <li>Use <strong>Recipe 01</strong> to find the first error</li>
+      <li>Use <strong>Recipe 08</strong> to identify whether impact is concentrated</li>
+      <li>Use <strong>Recipe 14</strong> to suppress noise</li>
+    </ul>
+
+    <hr/>
+
+    <h2>Operational Insight</h2>
+    <p>Wide impact ≠ root cause.<br/>
+    It often means the root cause is earlier and quieter.</p>
+
+    <hr/>
+
+    <div class="nav">
+      <a class="card" href="./advanced-patterns.html">
+        <div class="kicker">Previous</div>
+        <div class="cardtitle">Advanced Patterns</div>
+      </a>
+      <a class="card" href="./advanced-pattern-02.html">
+        <div class="kicker">Next</div>
+        <div class="cardtitle">Advanced Pattern 02 — Treat Logs as Evidence, Not Truth</div>
+      </a>
+    </div>
+
+  </div>
+</body>
+</html>
