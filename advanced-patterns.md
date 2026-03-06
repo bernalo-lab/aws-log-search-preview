@@ -41,7 +41,7 @@ These patterns are distilled from repeated incident response scenarios.
   <a href="./introduction.md" style="flex:1; min-width:240px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">
     <div style="font-weight:600; color:#111827;">Introduction</div>
   </a>
-  <a href="./advance-patterns/advanced-pattern-01.html" style="flex:1; min-width:240px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">
+  <a href="./advanced-patterns/advanced-pattern-01.html" style="flex:1; min-width:240px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">
     <div style="font-weight:600; color:#111827;">Advanced Pattern 01 — Work Backwards from Impact</div>
   </a>
 </div>
