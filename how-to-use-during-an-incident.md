@@ -1,6 +1,6 @@
 # How to Use This During an Incident
 
-*Page description (optional)*
+A practical guide for using this handbook during live incidents. Learn when to apply recipes, when to switch to investigation patterns, and how to reduce uncertainty quickly while systems are under pressure.
 
 ---
 
