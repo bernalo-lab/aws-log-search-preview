@@ -1,6 +1,6 @@
 # Changelog
 
-*Page description (optional)*
+A version history documenting updates, improvements, and newly added recipes to the AWS Log Search Recipes handbook.
 
 ---
 
