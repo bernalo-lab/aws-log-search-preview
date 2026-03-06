@@ -1,6 +1,6 @@
 # Foundations
 
-*Page description (optional)*
+Core principles and mental models for effective log analysis. This section explains how experienced engineers approach logs as investigative signals rather than answers, helping you interpret noisy systems and apply the recipes more effectively.
 
 ---
 
