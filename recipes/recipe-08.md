@@ -2,6 +2,8 @@
 
 *Find the Noisiest Customer or Tenant*
 
+---
+
 **Confidence:** High  
 **Use when:** Multi-tenant incidents, “only one customer is affected”, uneven error reports
 
