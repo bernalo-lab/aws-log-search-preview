@@ -168,13 +168,11 @@ It also gives you a **shared vocabulary**, which quietly improves:
 
 ---
 
-<div style="display:flex; gap:12px; justify-content:space-between; flex-wrap:wrap; margin-top:18px;">
-  <a href="./how-to-use-during-an-incident.html" style="flex:1; min-width:240px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">
-    <div style="font-size:12px; color:#6b7280; margin-bottom:6px;">Previous</div>
-    <div style="font-weight:600; color:#111827;">How to Use This During an Incident</div>
-  </a>
-  <a href="./changelog.html" style="flex:1; min-width:240px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">
-    <div style="font-size:12px; color:#6b7280; margin-bottom:6px;">Next</div>
-    <div style="font-weight:600; color:#111827;">Changelog</div>
-  </a>
+<div style="display:flex; justify-content:flex-end; margin-top:18px;">
+  <a href="./introduction.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">Introduction</a> |
+  <a href="./foundations.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">Foundations</a> |
+  <a href="./recipes.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">Recipes</a> |
+  <a href="./advanced-patterns.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">Advanced Patterns</a> |
+  <a href="./how-to-use-during-an-incident.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">Operational guidance</a> |
+  <a href="./changelog.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">Changelog</a>
 </div>
