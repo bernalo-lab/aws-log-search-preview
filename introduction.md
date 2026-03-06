@@ -68,8 +68,10 @@ This is a field guide, not a textbook.
 ---
 
 <div style="display:flex; justify-content:flex-end; margin-top:18px;">
-  <a href="./foundations.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">
-    <div style="font-size:12px; color:#6b7280; margin-bottom:6px;">Next</div>
-    <div style="font-weight:600; color:#111827;">Foundations</div>
-  </a>
+  <a href="./foundations.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">Foundations</a> |
+  <a href="./recipes.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">Recipes</a> |
+  <a href="./advanced-patterns.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">Advanced Patterns</a> |
+  <a href="./how-to-use-during-an-incident.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">Operational guidance</a> |
+  <a href="./glossary.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">Glossary</a> |
+  <a href="./changelog.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">Changelog</a>
 </div>
