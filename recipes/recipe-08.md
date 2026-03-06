@@ -49,10 +49,6 @@ Many “platform incidents” are actually one customer’s edge case at scale.
 ---
 
 <div style="display:flex; gap:12px; justify-content:space-between; flex-wrap:wrap; margin-top:18px;">
-  <a href="../introduction.md" style="flex:1; min-width:240px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">
-    <div style="font-size:12px; color:#6b7280; margin-bottom:6px;">Introduction</div>
-  </a>
-  <a href="../recipes.md" style="flex:1; min-width:240px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">
-    <div style="font-size:12px; color:#6b7280; margin-bottom:6px;">Recipes</div>
-  </a>
+  <a href="../introduction.md" style="flex:1; min-width:240px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">Introduction</a> | 
+  <a href="../recipes.md" style="flex:1; min-width:240px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">Recipes</a>
 </div>
