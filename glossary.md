@@ -1,6 +1,6 @@
 # Glossary
 
-*Page description (optional)*
+Key terms used throughout the handbook to describe failure patterns, log signals, and incident investigation concepts. This shared vocabulary helps teams communicate clearly during debugging and post-incident analysis.
 
 > These definitions evolve as you use and strengthen this handbook.
 
