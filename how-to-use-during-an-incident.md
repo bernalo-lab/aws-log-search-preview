@@ -139,13 +139,11 @@ If you’re unsure what to do next, that’s normal — and usually a sign to pa
 
 ---
 
-<div style="display:flex; gap:12px; justify-content:space-between; flex-wrap:wrap; margin-top:18px;">
-  <a href="./advanced-pattern-10.html" style="flex:1; min-width:240px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">
-    <div style="font-size:12px; color:#6b7280; margin-bottom:6px;">Previous</div>
-    <div style="font-weight:600; color:#111827;">Advanced Pattern 10 — Know When to Stop Searching</div>
-  </a>
-  <a href="./glossary.html" style="flex:1; min-width:240px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">
-    <div style="font-size:12px; color:#6b7280; margin-bottom:6px;">Next</div>
-    <div style="font-weight:600; color:#111827;">Glossary</div>
-  </a>
+<div style="display:flex; justify-content:flex-end; margin-top:18px;">
+  <a href="./introduction.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">Introduction</a> |
+  <a href="./foundations.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">Foundations</a> |
+  <a href="./recipes.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">Recipes</a> |
+  <a href="./advanced-patterns.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">Advanced Patterns</a> |
+  <a href="./glossary.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">Glossary</a> |
+  <a href="./changelog.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">Changelog</a>
 </div>
