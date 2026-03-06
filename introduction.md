@@ -1,7 +1,7 @@
 # Introduction
 
 *A practical field guide to searching AWS CloudWatch logs during real production incidents.*
-
+An introduction to the AWS Log Search Recipes handbook — a practical guide to using CloudWatch logs during real production incidents. Learn what this field guide covers, who it is designed for, and how it helps engineers debug complex systems under pressure.
 ---
 
 ## AWS Log Search Recipes
