@@ -1,7 +1,6 @@
 # Recipes
 
-*Page description (optional)*
-
+A collection of practical CloudWatch Logs Insights queries designed to solve real production debugging problems. Each recipe provides a ready-to-use search pattern along with operational context and guidance.
 ---
 
 ## Recipes
