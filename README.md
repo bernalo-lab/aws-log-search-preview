@@ -70,10 +70,8 @@ This folder is GitHub Pages-ready.
 
 Structure:
 
-- `index.html` — entry page
-- `*.html` — handbook pages
-- `aws-log-search-recipes.css` — shared stylesheet
-- `md/` — Markdown versions of the same pages
+- `introduction.md` — entry page
+- `md` — Markdown versions of the same pages
 
 To publish:
 
