@@ -78,5 +78,5 @@ This is a field guide, not a textbook.
   <a href="./changelog.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">Changelog</a>
 </div>
 <div style="display:flex; justify-content:flex-end; margin-top:18px;">
-  <a href="../playbooks/incident-debugging-playbook.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">Incident Debugging Playbook</a>
+  <a href="./playbooks/incident-debugging-playbook.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">Incident Debugging Playbook</a>
 </div>
