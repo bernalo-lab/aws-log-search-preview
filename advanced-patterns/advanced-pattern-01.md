@@ -1,8 +1,8 @@
 # Advanced Pattern 01 — Work Backwards from the Blast Radius
 
-*Page description (optional)*
+*Work Backwards from the Blast Radius*
 
-**Work Backwards from the Blast Radius**
+---
 
 **When to use:**  
 When logs are overwhelming and everything appears broken.
