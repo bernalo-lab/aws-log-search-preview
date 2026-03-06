@@ -1,6 +1,6 @@
 # Advanced Patterns
 
-*Page description (optional)*
+A guide to incident investigation strategies used when log searches alone are not enough. This section introduces practical mental models and heuristics that help engineers reason through ambiguous, noisy, or overlapping failures during real-world incident response. 
 
 ---
 
