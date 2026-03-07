@@ -48,6 +48,14 @@ Instead of manually scanning logs, this query surfaces the **dominant failure so
 
 ---
 
+This folder is GitHub Pages-ready.
+
+**Structure**:
+
+introduction.md — entry page
+
+---
+
 # Full Handbook
 
 This repository is a preview of the **AWS Log Search Recipes Handbook**.
