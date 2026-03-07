@@ -44,4 +44,10 @@ These patterns are distilled from repeated incident response scenarios.
   <a href="./advanced-patterns/advanced-pattern-01.md" style="flex:1; min-width:240px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">
     <div style="font-weight:600; color:#111827;">Advanced Pattern 01 — Work Backwards from Impact</div>
   </a>
+  <a href="./advanced-patterns/advanced-pattern-04.md" style="flex:1; min-width:240px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">
+    <div style="font-weight:600; color:#111827;">Advanced Pattern 04 — Collapse the Search Space Early</div>
+  </a>
+  <a href="./advanced-patterns/advanced-pattern-07.md" style="flex:1; min-width:240px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">
+    <div style="font-weight:600; color:#111827;">Advanced Pattern 07 - Actively Counter Confirmation Bias</div>
+  </a>
 </div>
