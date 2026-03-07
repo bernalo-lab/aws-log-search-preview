@@ -48,7 +48,7 @@ Retries are a load multiplier. Under failure, they can become the incident.
 
 <div style="display:flex; gap:12px; justify-content:space-between; flex-wrap:wrap; margin-top:18px;">
   <a href="./recipe-08.md" style="flex:1; min-width:240px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">
-    Recipe 08 — Find the Noisiest Customer or Tenant | 
+    Recipe 08 — Find the Noisiest Customer or Tenant&nbsp;|&nbsp;
   </a>
   <a href="./recipe-17.md" style="flex:1; min-width:240px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">
     Recipe 17 - Identify Feature Flags Causing Partial Failures
