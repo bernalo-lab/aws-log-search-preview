@@ -17,7 +17,7 @@ These examples demonstrate how structured log searches can quickly surface signa
 This preview repository contains:
 
 • 5 CloudWatch Logs Insights query recipes  
-• 5 incident investigation patterns  
+• 3 incident investigation patterns  
 
 These examples show how experienced engineers:
 
