@@ -40,7 +40,7 @@ fields @timestamp, service, @message
 | sort count desc
 ```
 
-Purpose:
+**Purpose**:
 
 Identify which service is generating the majority of failures during an incident.
 
