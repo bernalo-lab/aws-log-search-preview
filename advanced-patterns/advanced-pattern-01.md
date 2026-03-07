@@ -54,6 +54,5 @@ It often means the root cause is earlier and quieter.
 ---
 
 <div style="display:flex; justify-content:flex-end; margin-top:18px;">
-  <a href="../introduction.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">Introduction</a> |
   <a href="../advanced-patterns.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">Advanced Patterns</a>
 </div>
