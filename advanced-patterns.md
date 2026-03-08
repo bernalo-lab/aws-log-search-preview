@@ -50,4 +50,7 @@ These patterns are distilled from repeated incident response scenarios.
   <a href="./advanced-patterns/advanced-pattern-09.md" style="flex:1; min-width:240px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">
     <div style="font-weight:600; color:#111827;">Advanced Pattern 09 - Distinguish Responsibility from Blame</div>
   </a>
+  <a href="./advanced-patterns/common-production-error-patterns.md" style="flex:1; min-width:240px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">
+    <div style="font-weight:600; color:#111827;">Common Production Error Patterns</div>
+  </a>
 </div>
