@@ -21,7 +21,7 @@ This toolkit follows a simple investigation model:
 
 Signal → Classification → Evidence → Action
 
-**Signal**  
+Signal  
 The observable failure such as:
 
 • error logs  
@@ -69,9 +69,7 @@ Choose the safest operational response:
   </a>
 </div>
 
-<div>
-  <p>Each playbook contains investigation steps commonly used during real production incidents.</p>
-</div>
+<br />Each playbook contains investigation steps commonly used during real production incidents.
 
 ---
 
@@ -205,6 +203,7 @@ The full Production Incident Debugging Toolkit contains additional playbooks inc
 • CloudWatch Cost Investigation  
 
 These advanced playbooks are available in the **full edition** of the toolkit.
+
 
 
 
