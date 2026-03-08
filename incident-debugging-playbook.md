@@ -21,7 +21,7 @@ This toolkit follows a simple investigation model:
 
 Signal → Classification → Evidence → Action
 
-Signal  
+*Signal*  
 The observable failure such as:
 
 • error logs  
@@ -29,7 +29,7 @@ The observable failure such as:
 • dependency failures  
 • service crashes  
 
-Classification  
+*Classification*  
 Determine the likely failure category:
 
 • dependency unavailable  
@@ -37,7 +37,7 @@ Determine the likely failure category:
 • configuration error  
 • deployment regression  
 
-Evidence  
+*Evidence*  
 Collect supporting signals:
 
 • logs  
@@ -45,7 +45,7 @@ Collect supporting signals:
 • traces  
 • deployment history  
 
-Action  
+*Action*  
 Choose the safest operational response:
 
 • retry request  
@@ -69,7 +69,9 @@ Choose the safest operational response:
   </a>
 </div>
 
-<p>Each playbook contains investigation steps commonly used during real production incidents.</p>
+<div>
+  <p>Each playbook contains investigation steps commonly used during real production incidents.</p>
+</div>
 
 ---
 
@@ -203,5 +205,6 @@ The full Production Incident Debugging Toolkit contains additional playbooks inc
 • CloudWatch Cost Investigation  
 
 These advanced playbooks are available in the **full edition** of the toolkit.
+
 
 
