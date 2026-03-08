@@ -69,7 +69,7 @@ Choose the safest operational response:
   </a>
 </div>
 
-Each playbook contains investigation steps commonly used during real production incidents.
+<p>Each playbook contains investigation steps commonly used during real production incidents.</p>
 
 ---
 
@@ -203,4 +203,5 @@ The full Production Incident Debugging Toolkit contains additional playbooks inc
 • CloudWatch Cost Investigation  
 
 These advanced playbooks are available in the **full edition** of the toolkit.
+
 
