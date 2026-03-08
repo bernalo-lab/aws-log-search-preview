@@ -57,9 +57,17 @@ Choose the safest operational response:
 
 # Incident Playbooks Included in this Preview
 
-• API Gateway 502 / 504 Failures  
-• Database Connection Exhaustion  
-• AWS Lambda Timeout Debugging  
+<div style="display:flex; justify-content:flex-end; margin-top:18px;">
+  <a href="./playbooks/api-gateway-failures.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">
+    <div style="font-size:12px; color:#6b7280; margin-bottom:6px;">API Gateway 502 / 504 Failures</div>
+  </a>
+  <a href="./playbooks/database-connection-exhaustion.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">
+    <div style="font-size:12px; color:#6b7280; margin-bottom:6px;">Database Connection Exhaustion</div>
+  </a>
+  <a href="./playbooks/aws-lambda-timeout-debugging.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">
+    <div style="font-size:12px; color:#6b7280; margin-bottom:6px;">AWS Lambda Timeout Debugging</div>
+  </a>
+</div>
 
 Each playbook contains investigation steps commonly used during real production incidents.
 
@@ -195,3 +203,4 @@ The full Production Incident Debugging Toolkit contains additional playbooks inc
 • CloudWatch Cost Investigation  
 
 These advanced playbooks are available in the **full edition** of the toolkit.
+
