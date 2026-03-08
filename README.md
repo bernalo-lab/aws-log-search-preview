@@ -6,9 +6,9 @@ They start with engineers asking:
 
 **“What is actually failing?”**
 
-This repository contains a small preview of the **log interrogation patterns engineers use during real production incidents in AWS CloudWatch**.
+This repository contains a preview of the **log interrogation patterns engineers use during real production incidents in AWS CloudWatch**.
 
-These examples demonstrate how structured log searches can quickly surface signal during incident triage.
+These examples demonstrate how structured log searches and investigation playbooks help surface signal quickly during incident triage.
 
 ---
 
@@ -16,8 +16,9 @@ These examples demonstrate how structured log searches can quickly surface signa
 
 This preview repository contains:
 
-• 5 CloudWatch Logs Insights query recipes  
-• 3 incident investigation patterns  
+• **Incident debugging playbooks**  
+• **CloudWatch Logs Insights query recipes**  
+• **Common production error patterns**
 
 These examples show how experienced engineers:
 
@@ -26,8 +27,30 @@ These examples show how experienced engineers:
 - detect dependency failures
 - uncover retry storms
 - trace failing requests
+- classify production failure patterns
 
-All patterns are designed for **real production debugging**, not lab demonstrations.
+All material is designed for **real production debugging**, not lab demonstrations.
+
+---
+
+# Repository Structure
+
+```
+incident-debugging-playbook.md
+
+playbooks/
+  api-gateway-failures.md
+  database-connection-exhaustion.md
+  aws-lambda-timeout-debugging.md
+
+recipes/
+  aws-cloudwatch-log-search-recipes.md
+
+patterns/
+  common-production-error-patterns.md
+```
+
+Together these files provide a **structured approach to production incident debugging**.
 
 ---
 
@@ -40,19 +63,11 @@ fields @timestamp, service, @message
 | sort count desc
 ```
 
-**Purpose**:
+**Purpose**
 
 Identify which service is generating the majority of failures during an incident.
 
 Instead of manually scanning logs, this query surfaces the **dominant failure source immediately**.
-
----
-
-This folder is GitHub Pages-ready.
-
-**Structure**:
-
-<a href="./introduction.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">introduction.md</a> — entry page
 
 ---
 
@@ -63,7 +78,7 @@ This repository is a preview of the **AWS Log Search Recipes Handbook**.
 The full collection includes:
 
 • 40+ production-ready CloudWatch Logs Insights queries  
-• structured incident debugging playbooks  
+• expanded incident debugging playbooks  
 • advanced investigation patterns  
 • searchable HTML reference  
 • downloadable PDF handbook  
@@ -73,6 +88,8 @@ Designed for engineers who need answers **during outages, not after them**.
 Full handbook:
 
 https://sogekey.gumroad.com/l/aws-log-search-recipes
+
+The full edition also includes a **searchable HTML handbook designed for rapid lookup during incidents**.
 
 ---
 
@@ -126,5 +143,11 @@ Raw logs
 ```
 
 ---
+
+This folder is GitHub Pages-ready.
+
+**Structure**:
+
+<a href="./introduction.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">introduction.md</a> — entry page
 
 ⭐ If these examples are useful, consider **starring the repository**.
