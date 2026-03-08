@@ -14,26 +14,28 @@ These examples demonstrate how structured log searches and investigation playboo
 
 ## Toolkit Overview
 
+## Toolkit Overview
+
 ```mermaid
 flowchart TD
 
-A[Production Incident] --> B[Incident Debugging Framework]
+A["Production Incident"] --> B["Incident Debugging Framework"]
 
-B --> C[Incident Playbooks]
-B --> D[Log Search Recipes]
-B --> E[Error Pattern Reference]
+B --> C["Incident Playbooks"]
+B --> D["Log Search Recipes"]
+B --> E["Error Pattern Reference"]
 
-C --> C1[API Gateway Failures]
-C --> C2[Database Connection Exhaustion]
-C --> C3[AWS Lambda Timeout]
+C --> C1["API Gateway Failures"]
+C --> C2["Database Connection Exhaustion"]
+C --> C3["AWS Lambda Timeout"]
 
-D --> D1[Find Error Spikes]
-D --> D2[Trace Requests]
-D --> D3[Detect Timeouts]
+D --> D1["Find Error Spikes"]
+D --> D2["Trace Requests"]
+D --> D3["Detect Timeouts"]
 
-E --> E1[Dependency Failure]
-E --> E2[Resource Exhaustion]
-E --> E3[Deployment Regression]
+E --> E1["Dependency Failure"]
+E --> E2["Resource Exhaustion"]
+E --> E3["Deployment Regression"]
 
 ---
 
