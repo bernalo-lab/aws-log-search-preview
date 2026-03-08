@@ -27,6 +27,9 @@ Open the one that matches your situation, adapt it to your environment, and move
   <a href="./introduction.md" style="flex:1; min-width:240px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">
     <div style="font-size:12px; color:#6b7280; margin-bottom:6px;">Introduction</div>
   </a>
+    <a href="./recipes/aws-cloudwatch-log-search-recipes.md" style="flex:1; min-width:240px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">
+    <div style="font-size:12px; color:#6b7280; margin-bottom:6px;">AWS CloudWatch Log Search Recipes</div>
+  </a>
   <a href="./recipes/recipe-08.md" style="flex:1; min-width:240px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">
     <div style="font-size:12px; color:#6b7280; margin-bottom:6px;">Recipe 08 — Find the Noisiest Customer or Tenant</div>
   </a>
