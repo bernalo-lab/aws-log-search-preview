@@ -34,6 +34,7 @@ D --> D3["Detect Timeouts"]
 E --> E1["Dependency Failure"]
 E --> E2["Resource Exhaustion"]
 E --> E3["Deployment Regression"]
+```
 
 ---
 
@@ -130,7 +131,7 @@ This material is designed for:
 
 If you have ever asked:
 
-*"I know the answer is in these logs somewhere — where do I start?"*
+"I know the answer is in these logs somewhere — where do I start?"
 
 These patterns will help.
 
