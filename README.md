@@ -14,8 +14,6 @@ These examples demonstrate how structured log searches and investigation playboo
 
 ## Toolkit Overview
 
-## Toolkit Overview
-
 ```mermaid
 flowchart TD
 
